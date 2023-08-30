@@ -11,5 +11,4 @@ preview:
 
 
 demo video:
-
-[chrome-extension://mmeijimgabbpbgpdklnllpncmdofkcpn/app.html#/files/1e6b1202-d953-4a34-y1b2-89814037ac60](https://watch.screencastify.com/v/dJjTYVk6Q9zscsWlpOk5)https://watch.screencastify.com/v/dJjTYVk6Q9zscsWlpOk5
+(https://watch.screencastify.com/v/dJjTYVk6Q9zscsWlpOk5)https://watch.screencastify.com/v/dJjTYVk6Q9zscsWlpOk5
