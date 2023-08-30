@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api'
 import AutocompleteComponent from './components/AutoCompleteComponent'
 
-const MAP_API_KEY = 'AIzaSyDiYQIKZTj5TSasDF6LdLqkowpUfkumb1M'
+const MAP_API_KEY = process.env.REACT_APP_MAP_API_KEY
 
 const containerStyle = {
   width: '100%',
@@ -58,7 +58,7 @@ const MapComponent: React.FC = () => {
   }
 
   return (
-    <LoadScript googleMapsApiKey={MAP_API_KEY} libraries={['places']}>
+    <LoadScript googleMapsApiKey={MAP_API_KEY || ''} libraries={['places']}>
       <div>
         <div style={flexContainerStyle}>
           <div style={customAddressBarDiv}>
